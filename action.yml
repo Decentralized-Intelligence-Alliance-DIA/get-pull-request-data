@@ -1,0 +1,10 @@
+name: Jira Check
+description: "Returns pull request data: title and url"
+outputs:
+  title:
+    description: "PR title"
+  url:
+    description: "PR url"
+runs:
+  using: node12
+  main: index.js
